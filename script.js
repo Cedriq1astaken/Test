@@ -51,17 +51,17 @@ btns.forEach((el, i)=>{
         if(isActive == null){
             el.style.backgroundColor = "red";
             el.style.color = "#FFF";
-            img[i].src = "./images/white-check.png";
+            img[i].src = "./Images/white-check.png";
             isActive = i;
             return;
         }
         else{
             btns[isActive].style.backgroundColor = "white";
             btns[isActive].style.color = "#000";
-            img[isActive].src = "./images/red-check.png";
+            img[isActive].src = "./Images/red-check.png";
             el.style.backgroundColor = "red";
             el.style.color = "#FFF";
-            img[i].src = "./images/white-check.png";
+            img[i].src = "./Images/white-check.png";
             isActive = i;
             return;
         }
